@@ -1,1 +1,1 @@
-bot: python3 raspisanie.py
+worker: python3 raspisanie.py
