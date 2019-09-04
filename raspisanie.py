@@ -1,10 +1,11 @@
 import telebot
 import datetime
+from telebot import types
 
 bot = telebot.TeleBot('722998100:AAEOn6OK74dP1uMX8a_JjeEsPmVD7tsoD68')
-keyboard1=telebot.types.ReplyKeyboardMarkup(True)
+keyboard1=types.ReplyKeyboardMarkup(True)
 keyboard1.row('/start','Hello')
-keyboard2=telebot.types.ReplyKeyboardMarkup(True)
+keyboard2=types.ReplyKeyboardMarkup(True)
 keyboard2.row('Понедельник',"Вторник")
 keyboard2.row("Среда", "Четверг")
 keyboard2.row("Пятница","Другая неделя")
